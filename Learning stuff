@@ -1,0 +1,72 @@
+Packages: open source libraray provided by many different developer
+URL from you can get packages: npmjs.com
+
+#################################
+
+> JSON: Javascript object notation > way to respresent data
+> Key: Value
+> Structured and unstructed data
+> [
+
+    {
+        "name" : "Shweta",
+        "city:"Nagpur",
+        "Subject": "UI"
+    },
+    {
+        "name" : "Shri",
+        "city:"Nagpur",
+        "Subject": "UId"
+    }
+
+]
+
+###################################
+Package.json
+
+> Name,version, description
+> Packages in the applications
+> Script (Start, Build, Test)
+> Entry Point
+
+Steps to generate package.json
+
+> NodeJS must be installed in laptop
+> OPen the CMD/Terminal and go inside folder
+> npm init
+> answer all question
+> Type "Yes"
+
+To install any package:
+
+> npm i package name
+> npm i > it will go for package.json, look for all the packages and install all related packages
+
+##############################
+Global Packages
+
+> Install in dev laptop
+> Only to generate app/start app
+> will not add in package.json
+> Admin access to laptop
+> npm i packagename -g
+
+######################
+Steps to generate angular app
+
+> one time
+> open cmd as admin
+> npm i -g @angular/cli
+
+################
+Next all time you need new app
+
+> open cmd
+> go inside folder
+> ng new appname
+
+#### to run the app
+
+> > go into thefolder
+> > npm start
+> > ng serve
